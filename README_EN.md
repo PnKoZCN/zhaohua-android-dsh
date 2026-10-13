@@ -27,7 +27,7 @@ The technical base is unchanged: DSH kernel `0.2.0-rc.2`, native Java shell with
 
 ### Use a release
 
-1. Download `DeepSeekHarness-ZhaoHua-v181lite9b.apk` (~225 MB) from [Releases](../../releases)
+1. Download `DeepSeekHarness-ZhaoHua-v181lite9b.apk` (~225 MB) from [Releases](https://github.com/PnKoZCN/zhaohua-android-dsh/releases) (sha256 in `SHA256SUMS.txt` on the same page)
 2. **Uninstall** any previous version first (when `dshhome/` files changed, installing over the old one will not update them — see [docs/BUILD.md](docs/BUILD.md))
 3. After first launch, say "沙箱状态" in a session, or open **Settings → Plugins → ZhaoHua Sandbox** and press "Install / repair toolbox"
 

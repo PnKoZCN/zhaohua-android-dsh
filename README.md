@@ -27,7 +27,7 @@ DeepSeek Harness（DSH）是 DeepSeek 官方的 agent 运行时。本项目的�
 
 ### 使用发行版
 
-1. 从 [Releases](../../releases) 下载 `DeepSeekHarness-ZhaoHua-v181lite9b.apk`（约 225 MB）
+1. 从 [Releases](https://github.com/PnKoZCN/zhaohua-android-dsh/releases) 下载 `DeepSeekHarness-ZhaoHua-v181lite9b.apk`（约 225 MB，sha256 见同页 `SHA256SUMS.txt`）
 2. **卸载**旧版后安装（改过 `dshhome/` 下文件时覆盖安装不会更新，见 [docs/BUILD.md](docs/BUILD.md#安装注意事项)）
 3. 首次启动后在会话里说「沙箱状态」，或直接进 **设置 → 插件 → ZhaoHua 沙箱** 点「安装 / 修复工具箱」
 
