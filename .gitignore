@@ -1,0 +1,43 @@
+# 忽略规则
+
+# 构建产物
+out/
+*.apk
+*.idsig
+*.dex
+!plugins/**/*.dex
+payload*.zip
+
+# 大体积运行时资产（自行从 Releases 获取或本地构建）
+*.tar.gz
+!plugins/**/*.tar.gz
+zh-rootfs.tar.gz
+
+# 签名与凭据 —— 绝不入库
+*.jks
+*.keystore
+*.pem
+*.key
+.credentials.yaml
+zhaohua-sandbox.json
+*.env
+
+# 构建链临时
+node_modules/
+.pnpm-store/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 编辑器与系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 本地工作区
+workspace/
+tmp/
+*.log

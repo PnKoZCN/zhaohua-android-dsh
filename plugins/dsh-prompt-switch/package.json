@@ -1,0 +1,25 @@
+{
+  "name": "@zhaohua/dsh-prompt-switch",
+  "description": "ZhaoHua 三档提示词切换：默认(不破甲)/常规/Claude 专用。persona prefix 经全局提示词变量 zhaohua_prompt 装配，模式文件热切换，下一条消息生效。",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./client": { "default": "./lib/client.js" },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-plugin-manager",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": { "bundle": "tsdown" },
+  "license": "MIT"
+}

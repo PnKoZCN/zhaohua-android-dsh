@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2026 ZhaoHua Android DeepSeek Harness contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 关于本仓库中的第三方内容
+
+本许可证只覆盖本项目的自有代码（`plugins/`、`sandbox/`、`scripts/`、`prompts/`、
+`skills/sandbox-manager/`、`docs/` 与根目录文档）。
+
+随包分发或仓库内引用的第三方组件遵循其各自许可证，完整清单与逐项标注见
+[THIRD_PARTY.md](THIRD_PARTY.md)。其中包含：
+
+- GPL-2.0 / GPL-3.0 组件（PRoot、open-reverselab）——以独立可执行文件或独立文档形式
+  分发，未与本项目代码静态链接；
+- AGPL-3.0 组件（ARTEX、CyberStrike、Pentest-Swarm-AI、cyber-harness）——独立文档形式；
+- CC-BY-NC-ND-4.0 组件（Scanners-Box）——禁止商用与演绎，商用发行前请移除；
+- 上游 MIT 组件（DeepSeek Harness 内核、Android 封装基线、dsh-our-free-model 等）——
+  保留其原始版权声明。
+
+再分发本项目时，请一并保留 THIRD_PARTY.md 与各第三方组件的许可证文本。

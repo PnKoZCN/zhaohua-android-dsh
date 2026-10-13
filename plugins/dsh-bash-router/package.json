@@ -1,0 +1,12 @@
+{
+  "name": "@zhaohua/dsh-bash-router",
+  "description": "ZhaoHua dual-track bash executor: local phone bash by default, transparent SSH routing to a VPS sandbox for toolchain commands or when the sandbox toggle is on, with automatic local fallback.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "private": true,
+  "dependencies": {
+    "@deepseek-ai/dsh-bash-local": "0.2.0-rc.2",
+    "@deepseek-ai/schemastery": "~3.18.4"
+  }
+}
